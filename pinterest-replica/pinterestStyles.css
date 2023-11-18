@@ -1,0 +1,92 @@
+.header > .search-bar input {
+    width: 1100px;
+    height: 25px;
+    background-color: #E4E2DF;
+    border: white;
+    border-radius: 4px;
+    padding-left: 7px;
+}
+.header > .search-bar {
+    margin-right: 60px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.header > .right-icon-links {
+    display: flex;
+    width: 90px;
+    justify-content: space-between;
+}
+.header > .pinterest-icon {
+    font-size: 25px;
+    margin-right: 50px;
+    margin-left: 50px;
+    color: #BD081C;
+}
+.right-icon-links i {
+    font-size: 20px;
+    color: #E4E2DF;
+}
+.right-icon-links i:hover {
+    color: black;
+}
+img {
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+}
+.grid-content > #content1 {
+    width: 300px;
+    height: 300px;
+}
+#wrapper {
+    width: 90%;
+    max-width: 1100px;
+    min-width: 800px;
+    margin: 50px auto;
+}
+#columns {
+    -webkit-column-count: 3;
+    -webkit-column-gap: 10px;
+    -webkit-column-fill: auto;
+}
+
+.pin {
+	display: inline-block;
+	background: #FEFEFE;
+	border: 2px solid #FAFAFA;
+	box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+	margin: 0 2px 15px;
+	-webkit-column-break-inside: avoid;
+	-moz-column-break-inside: avoid;
+	column-break-inside: avoid;
+	padding: 15px;
+	padding-bottom: 5px;
+	background: -webkit-linear-gradient(45deg, #FFF, #F9F9F9);
+	opacity: 1;
+
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	transition: all .2s ease;
+}
+
+.pin img {
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 15px;
+	margin-bottom: 5px;
+}
+
+.pin p {
+	font: 12px/18px Arial, sans-serif;
+	color: #333;
+	margin: 0;
+}
+
+.pin:hover {
+	border-radius: 20px;
+	cursor: pointer;
+}

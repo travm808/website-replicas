@@ -1,0 +1,121 @@
+#title h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    margin: 0px;
+    margin-right: 225px;
+}
+#bars {
+    margin: 20px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#search {
+    width: 500px;
+    height: 30px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+#microphone {
+    background-color: lightgrey;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 8px;
+    margin-right: 250px;
+}
+#video-icon {
+    margin-right: 25px;
+}
+#bell-icon {
+    margin-right: 25px;
+}
+.fa-solid.fa-microphone {
+    color: black;
+}
+header {
+    display: flex;
+    margin-bottom: 10px;
+}
+.left-nav {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+main {
+    display: flex;
+}
+.topics {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1000px;
+}
+.topic {
+    background-color: lightgrey;
+    width: fit-content;
+    border-radius: 5px;
+}
+.topic h5 {
+    padding: 10px;
+    margin: 0px;
+}
+.nav-title-icon {
+    display: flex;
+    padding: 5px;
+    margin-bottom: 8px;
+}
+.nav-title-icon:hover {
+    background-color: rgb(249, 247, 247);
+}
+.nav-title-icon p {
+    margin: 0px;
+    padding-left: 30px;
+}
+.left-nav {
+    margin: 5px 20px 20px;
+}
+.info {
+    display: flex;
+}
+.title-video > h4 {
+    margin: 5px 0px 0px 0px;
+}
+.title-video > p {
+    margin: 5px 0px 5px 0px;
+}
+.video {
+    width: 350px;
+    margin: 40px 10px;
+}
+.profile-image {
+    margin-right: 10px;
+}
+.row {
+    display: flex;
+}
+.thumbnail > img {
+    border-radius: 20px;
+}
+.videos {
+    overflow: scroll;
+}
+hr {
+    margin: 20px 0px;
+}
+#left-nav-you {
+    display: flex;
+    margin-bottom: 8px;
+    padding: 5px;
+}
+#left-nav-you > p {
+    margin: 0px;
+    padding-right: 10px;
+}
+#left-nav-you > i {
+    display: flex;
+    align-items: center;
+}
+#left-nav-you:hover {
+    background-color: rgb(249, 247, 247);
+}
